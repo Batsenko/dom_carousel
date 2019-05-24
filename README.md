@@ -1,6 +1,5 @@
 - [For review GitHub Pages](https://batsenko.github.io/dom_carousel/)
 
-
 # Carousel
 
 1) Create a 1300 pixel-wide container and put there 10 images from the [img/](img/) folder so that they are all in the same row. Each of the images is 130×130 pixels.

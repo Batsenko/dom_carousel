@@ -20,7 +20,7 @@ function updateEnable() {
 		prev.disabled = true;
 	}
 	next.disabled = false;
-	if(container.scrollLeft >= (list.childElementCount * 130 - container.clientWidth)) {
+	if(container.scrollLeft >= (list.childElementCount * 140 - container.clientWidth)) {
 		next.disabled = true;
 	}
 }

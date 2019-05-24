@@ -1,12 +1,22 @@
+main {
+	display: flex;
+	justify-content: center;
+	height: 130px;
+	align-items: center;
+}
+
 #container {
-	width: 390px;
-	overflow-x: scroll;
+	width: 450px;
+	overflow: hidden;
 }
 
 #list {
-	width: 99999%;
+	flex-wrap: nowrap;
+    display: flex;
+    justify-content: flex-start;
 }
 
 img {
-	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
